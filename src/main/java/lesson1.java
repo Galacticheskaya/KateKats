@@ -1,6 +1,12 @@
+/**
+ * Java 1. HomeWork-1
+ * @autor Kate Kats
+ * @version 29.01.22
+ */
+
 import java.util.Scanner;
 
-public class FirstApp {
+    public class lesson1 {
     private static Scanner sc;
 
     public static void main (String[] args) {
@@ -22,7 +28,7 @@ public class FirstApp {
         int b=3;
         if (a+b>=0) {
             System.out.println("сумма положительная");
-        } else {
+        }  {
             System.out.println("сумма отрицательная");
         }
     }
